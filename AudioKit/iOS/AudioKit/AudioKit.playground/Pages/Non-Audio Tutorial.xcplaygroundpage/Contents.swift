@@ -7,21 +7,21 @@
 //: You will always see the `import AudioKit` line which brings in all of AudioKit's functionality to the playground.
 import AudioKit
 
-//: Another import line you will see in most playgrounds enables `XCPlayground` functions for plotting, keeping the playground alive while audio plays, and more.
+//: Another import line you will see in most playgrounds enables `XCPlayground` functions for plotting, keeping the playground alive while audio plays and more.
 import XCPlayground
 
 //: This main bundle line just helps the playground find the files (such as audio clips) it will be able to play and process.
 let bundle = NSBundle.mainBundle()
 
-//: To reference a file, you use the bundle from about and the `pathForResource` method that includes the name with the extension given in the `ofType` parameter.
+//: To reference a file, you use the bundle from above and the `pathForResource` method that takes the name of the file and the extension, which is given in the `ofType` parameter.
 let file = bundle.pathForResource("drumloop", ofType: "wav")
 
-//: You are not limited to using the sound files provided with AudioKit, in fact we encourage you to drag your own sound files to the Resources folder.  Ideally, to keep things running quickly, loopable 10-20 second `.wav` or `.aiff` files are recommended.  Many free loops are avaiable online at sites such as [looperman.com](http://www.looperman.com/) or [freesound.org](http://www.freesound.org/).
+//: You are not limited to using the sound files provided with AudioKit. In fact, we encourage you to drag your own sound files into the Resources folder.  Ideally, to keep things running quickly, loopable 10-20 second `.wav` or `.aiff` files are recommended.  Many free loops are avaiable online at sites such as [looperman.com](http://www.looperman.com/) or [freesound.org](http://www.freesound.org/).
 //:
 //: ![drag](http://audiokit.io/playgrounds/DragResource.gif "drag")
 //:
 
-//: While we will do our best to annotate the playgrounds well, you can also get more information about the different code elements on the page by clicking on them and looking at the Quick Help Inspector.  Or, you can also option-click on any class, method, or variable name to show information about that element.  Try it with the lines below:
+//: While we will do our best to annotate the playgrounds well, you can also get more information about the different code elements on the page by clicking on them and looking at the Quick Help Inspector. You can also option-click on any class, method, or variable name to show information about that element. Try it with the lines below:
 let player = AKAudioPlayer(file!)
 let effect = AKMoogLadder(player)
 

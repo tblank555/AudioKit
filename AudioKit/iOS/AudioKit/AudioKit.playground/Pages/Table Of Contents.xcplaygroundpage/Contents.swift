@@ -1,16 +1,16 @@
 //: # Playgrounds Table of Contents
 //:
-//: AudioKit comes with many playgrounds, each of which serves to teach some core concept, demonstrate a particular generator or synthesizer, or just show off some wacky sounds that we've discovered.  Because there are so many playgrounds that are inter-related in different ways, the order of the playgrounds in Xcode is more or less alphabetical, however this index page lists all the the playgrounds grouped by category.  Playgrounds that fit into multiple categories are listed in each relevant category.
+//: AudioKit comes with many playgrounds, each of which serves to teach some core concept, demonstrate a particular generator or synthesizer, or just show off some wacky sounds that we've discovered.  Because there are so many playgrounds that are inter-related in different ways, the order of the playgrounds in Xcode is more or less alphabetical, however this index page lists all the the playgrounds grouped by category. Playgrounds that fit into multiple categories are listed in each relevant category.
 //:
 //: ## Getting Started
 //:
-//: Let's start off just making sure you're all set up and can make sound.
+//: Let's start off by just making sure you're all set up and can make sound.
 //:
 //: * [Introduction and Hello World](Introduction%20and%20Hello%20World)
 //:
 //: ## This is going to be fun...
 //:
-//: So wait, before we jump into the actual tutorials, let's just highlight some of the cooler sound playgrounds we have.  Don't try to understand the code if you're just started, it will all be expained starting with the next section, Basic Tutorials.
+//: So wait, before we jump into the actual tutorials, let's just highlight some of the cooler sound playgrounds we have.  Don't try to understand the code if you've just started; it will all be expained starting with the next section, Basic Tutorials.
 //:
 //: * [Electro Drum Beat](Drum%20Synthesizers)
 //: * [Filter Envelope](Filter%20Envelope)
@@ -22,7 +22,7 @@
 //:
 //: ## Basic Tutorials
 //:
-//: These tutorials help you get started with the basic concepts of AudioKit, starting with what you need to know about playgrounds in general and then moving on to sound creation and working with AudioKit nodes.
+//: These tutorials help you get started with the basic concepts of AudioKit, starting with what you need to know about playgrounds in general, and then moving on to sound creation and working with AudioKit nodes.
 //:
 //: * [Non-Audio Tutorial](Non-Audio%20Tutorial)
 //: * [Connecting Nodes](Connecting%20Nodes)
